@@ -2,20 +2,20 @@
 #include<conio.h>
 int main()
 {
-int num;
-int flag=0;
+int n;
+int f=0;
 cout<<"enter a number";
-cin>>num;
-for(int i=2;i<=num/2;i++)
+cin>>n;
+for(int i=2;i<=n/2;i++)
 {
-if(num/i==0)
+if(n/i==0)
 {
 cout<<"not a prime";
-flag=1;
+f=1;
 break;
 }
 }
-if(flag==0)
-cout<<"num is a prime";
+if(f==0)
+cout<<"is a prime";
 return(0);
 }
