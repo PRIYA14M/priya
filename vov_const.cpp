@@ -2,12 +2,12 @@
 using namespace std;
 int main()
 {
-char ch;
+char c;
 cout<<"Enter a character: "<<endl;
-cin>>ch;
-if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'|| ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')
-cout<<ch<<" is a vowel";
+cin>>c;
+if(c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u'|| c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U')
+cout<<c<<" is a vowel";
 else 
-cout<<ch<<" is a consonant";
+cout<<c<<" is a consonant";
 return(0);
 }
