@@ -3,6 +3,6 @@
 int main()
 {
 for(int k=0;k<5;k++)
-cout<<"hello";
+cout<<"Hello";
 return(0);
 }
