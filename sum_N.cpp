@@ -3,13 +3,13 @@ using namespace std;
 
 int main()
 {
-int num,sum=0;
-cout<<"Enter the num"<<endl;
-cin>>num;
-for(int i=1;i<=num;i++)
+int n,s=0;
+cout<<"Enter the n"<<endl;
+cin>>n;
+for(int i=1;i<=n;i++)
 {
-sum+=i;
+s+=i;
 }
-cout<<"Sum of natural number is "<<sum;
+cout<<"Sum of natural number is "<<s;
 return(0);
 }
