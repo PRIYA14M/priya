@@ -2,12 +2,12 @@
 using namespace std;
 int main()
 {
-int n;
+int a;
 cout<<"Enter a number: "<<endl;
-cin>>n;
-if(n%2 == 0)
-cout<<n<<" is even number";
+cin>>a;
+if(a%2 == 0)
+cout<<a<<" is even number";
 else
-cout<<n<<" is odd number";
+cout<<a<<" is odd number";
 return(0);
 }
