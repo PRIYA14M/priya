@@ -2,14 +2,14 @@
 using namespace std;
 int main()
 {
-int a,b,c;
+int d,e,f;
 cout<<"Enter three numbers"<<endl;
-cin>>a>>b>>c;
-if(a>b && a>c)
-cout<<a<<" is a greatest number";
-else if(b>c)
-cout<<b<<" is a greatest number";
+cin>>d>>e>>f;
+if(d>e && d>f)
+cout<<d<<" is a greatest number";
+else if(e>f)
+cout<<e<<" is a greatest number";
 else
-cout<<c<<" is a greatest number";
+cout<<f<<" is a greatest number";
 return(0);
 }
