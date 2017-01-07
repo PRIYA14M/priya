@@ -2,28 +2,28 @@
 using namespace std;
 int main()
 {
-int num,pwr;
-float sum=1.0;
-cout<<"enter a num"<<endl;
-cin>>num;
+int n,p;
+float s=1.0;
+cout<<"enter a number"<<endl;
+cin>>n;
 cout<<"enter a power"<<endl;
-cin>>pwr;
-if(pwr==0)
-cout<<"power of "<<num<<" is 1";
-if(pwr>0)
+cin>>p;
+if(p==0)
+cout<<"power of "<<n<<" is 1";
+if(p>0)
 {
-for(int i=0;i<pwr;i++)
-sum*=num;
-cout<<"power of "<<num<<" is "<<sum;
+for(int i=0;i<p;i++)
+s*=n;
+cout<<"power of "<<n<<" is "<<s;
 }
-if(pwr<0)
+if(p<0)
 {
-for(int i=0;i>pwr;i--)
-sum*=num;
-sum=1/sum;
-cout<<"power of "<<num<<" is "<<sum;
+for(int i=0;i>p;i--)
+s*=n;
+s=1/s;
+cout<<"power of "<<n<<" is "<<s;
 }
 
 
 return(0);
-}f
+}
