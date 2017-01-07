@@ -2,14 +2,14 @@
 #include<conio.h>
 int main()
 {
-int num;int sum=0;
-cout<<"enter the num";
-if(num<1)
+int n;int s=0;
+cout<<"enter the number";
+if(n<1)
 cout<<"it is not a natural number";
-for(int i=1;i<=num;i++)
+for(int i=1;i<=n;i++)
 {
-sum+=1;
+s+=1;
 }
-cout<<"sum of natural number is "<<sum;
+cout<<"sum of natural number is "<<s;
 return(0);
 }
