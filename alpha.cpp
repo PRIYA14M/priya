@@ -2,12 +2,12 @@
 using namespace std;
 int main()
 {
-char ch;
+char c;
 cout<<"Enter a char "<<endl;
-cin>>ch;
-if((ch >= 'a' && ch <='z') || (ch >='A' && ch <= 'Z'))
-cout<<ch<<" is an alphabetic";
+cin>>c;
+if((c >= 'a' && c <='z') || (c >='A' && c <= 'Z'))
+cout<<c<<" is an alphabetic";
 else
-cout<<ch<<" is not an alphabetic";
+cout<<c<<" is not an alphabetic";
 return(0);
 }
