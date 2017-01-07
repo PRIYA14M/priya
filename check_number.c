@@ -2,12 +2,12 @@
 using namespace std;
 
 int main(void) {
-	int n;
+	int a;
 	printf("\n enter the number");
-	scanf("%d",&n);
-	if(n!=0)
+	scanf("%d",&a);
+	if(a!=0)
 	{
-		if(n>0)
+		if(a>0)
 		printf("Number is positive");
 		else
 		printf("Number is negative");
