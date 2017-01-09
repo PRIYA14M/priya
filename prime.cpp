@@ -1,21 +1,22 @@
-#include<stdio.h>
-#include<conio.h>
+#include<iostream>
+using namespace std;
+
 int main()
 {
-int n;
-int f=0;
-cout<<"enter a number";
-cin>>n;
-for(int i=2;i<=n/2;i++)
+int num;
+int flag=0;
+cout<<"enter a number"<<endl;
+cin>>num;
+for(int i=2;i<=num/2;i++)
 {
-if(n/i==0)
+if(num%i == 0)
 {
-cout<<"not a prime";
-f=1;
+cout<<num<<" is not a prime number";
+flag=1;
 break;
 }
 }
-if(f==0)
-cout<<"is a prime";
+if(flag==0)
+cout<<num<<" is a prime number";
 return(0);
 }
