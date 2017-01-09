@@ -3,26 +3,26 @@ using namespace std;
 
 int main()
 {
-int num,st,end;
-int flag=0;
+int n,s,e;
+int f=0;
 cout<<"enter a range"<<endl;
-cin>>st>>end;
+cin>>s>>e;
 
-for(num=st;num<=end;num++)
+for(n=s;n<=e;n++)
 {
 
-for(int i=2;i<=num/2;i++)
+for(int i=2;i<=n/2;i++)
 {
-if(num%i == 0)
+if(n%i == 0)
 {
-flag=1;
+f=1;
 break;
 }
 else
-flag=0;
+f=0;
 }
-if(flag==0)
-cout<<endl<<num;
+if(f==0)
+cout<<endl<<n;
 
 }
 
