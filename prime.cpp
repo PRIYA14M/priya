@@ -3,20 +3,20 @@ using namespace std;
 
 int main()
 {
-int num;
-int flag=0;
+int n;
+int f=0;
 cout<<"enter a number"<<endl;
-cin>>num;
-for(int i=2;i<=num/2;i++)
+cin>>n;
+for(int i=2;i<=n/2;i++)
 {
-if(num%i == 0)
+if(n%i == 0)
 {
-cout<<num<<" is not a prime number";
-flag=1;
+cout<<n<<" is not a prime number";
+f=1;
 break;
 }
 }
-if(flag==0)
-cout<<num<<" is a prime number";
+if(f==0)
+cout<<n<<" is a prime number";
 return(0);
 }
