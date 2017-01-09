@@ -3,11 +3,11 @@ using namespace std;
 
 int main()
 {
-int start,final;
+int st,f;
 cout<<"Enter a starting and ending values"<<endl;
-cin>>start>>final;
-cout<<"Odd numbers are "<<endl;
-for(int i=start;i<=final;i++)
+cin>>st>>f;
+cout<<"even numbers are "<<endl;
+for(int i=st;i<=f;i++)
 {
 if(i%2 == 0)
 cout<<i<<endl;
